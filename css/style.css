@@ -1,0 +1,11 @@
+#game{
+    text-align: center;
+}
+
+h1{
+margin-top: 10%;
+}
+
+#playAgain{
+    display: none;
+}
