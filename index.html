@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  
+  <meta charset="utf-8">
+  <title>Number Guesser</title>
+  
+  <meta name="Melvin Millayes">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+ 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="script/game.js" async></script>
+  
+
+</head>
+<body>
+
+
+  <div class="container" id="game">
+    <div class="row">
+      <div class="eleven columns">
+
+        <h1>Number Guesser</h1>
+        <br>
+        <h2>Instructions</h2>
+        <ol id="instructions">
+          <li>Select a number from 0 to 9 </li>
+          <li>If your number is closer to the target number than the computer you win.</li>
+        </ol>
+        <h2>Target Number</h2>
+        <h3 id="target number">?</h3>
+        <p></p>
+
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="six columns">
+        <p class="players">Computer Guess</p>
+        <span id="computer guess">?</span>
+        
+      </div>
+      <div class="six columns">
+        <p class="players">Player Guess</p>
+        <form >
+          <input type="number" value="0" min="0" max="9" id="playerGuess">
+          
+          <input type="button" value="Select Number"id="playButton"></input>
+          <input type="submit" value = "Play Again" id="playAgain"></input>
+        </form>
+        
+       
+      </div>
+    </div>
+    <div>
+      <h3>Winner is: <span id="winner"></span></h3>
+    </div>
+     
+
+  </div>
+
+  
+</body>
+</html>
